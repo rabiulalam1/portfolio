@@ -115,13 +115,13 @@
             </div>  
         </div>
     </div>
-    <div class="formBx">
-      <form  action="mailto:rabiul.alam@outlook.com.com" method="post" enctype="text/plain">
+    <div class="formBx" action="https://kwes.io/api/foreign/forms/h4e9jo2rTy0QmE7y27h7">
+      <form  class="kwes-form">
         <h3>Message Me</h3>
-        <input type="text" name="" placeholder="Full Name" required>
-        <input type="email" name="" placeholder="Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <input type="submit" value="Send" name="">
+        <input type="text" name="name" placeholder="Full Name" rules="required|max:255">
+        <input type="email" name="email" placeholder="Email" rules="required|max:255">
+        <textarea placeholder="Your Message" name="message" rules="required|max:255"></textarea>
+        <input type="submit" value="Send">
       </form>
     </div>
   </div>
@@ -130,6 +130,8 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
+  <script src="https://kwes.io/v2/kwes-script.js" defer></script>
   <script src="./javascript/javascript.js"></script>
+  
 </body>
 </html>
