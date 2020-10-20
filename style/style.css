@@ -222,13 +222,18 @@ img {
 .socialMedia ul li {
   position: relative;
   list-style: none;
-  margin: 0px 15px;
+  margin: 5px 15px;
 }
 .socialMedia ul li a .fa {
   font-size: 3em;
-  color: #f9f9f9d7;
 }
-.socialMedia ul li::before {
+.socialMedia ul li a .fa-linkedin {
+  color: #0e76a8;
+}
+.socialMedia ul li a .fa-github-square {
+  color: #2f2f2f;
+}
+/* .socialMedia ul li::before {
   font-family: fontAwesome;
   position: absolute;
   top: 0;
@@ -249,7 +254,7 @@ img {
 
 .socialMedia ul li:hover::before {
   height: 100%;
-}
+} */
 
 .icon {
   display: flex;
