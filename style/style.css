@@ -130,7 +130,7 @@ section {
 
 .projectsBx a {
   text-decoration: none;
-  color:purple;
+  color: purple;
 }
 
 .projects .content .projectsBx:hover {
@@ -217,11 +217,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .socialMedia ul li {
   position: relative;
   list-style: none;
-  margin: 35px 5px;
+  margin: 0px 15px;
 }
 .socialMedia ul li a .fa {
   font-size: 3em;
@@ -242,12 +243,8 @@ img {
   color: #0e76a8;
 }
 .socialMedia ul li:nth-child(2)::before {
-  content: "\f099";
-  color: #1da1f2;
-}
-.socialMedia ul li:nth-child(3)::before {
-  content: "\f198";
-  color: #4a154b;
+  content: "\f092";
+  color: #2f2f2f;
 }
 
 .socialMedia ul li:hover::before {
