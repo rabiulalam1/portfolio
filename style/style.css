@@ -209,9 +209,9 @@ img {
 .formBx {
   min-width: 60%;
 }
-.myImg {
+/* .myImg {
   transform: scale(2.2);
-}
+} */
 
 .socialMedia ul {
   display: flex;
@@ -260,6 +260,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   padding: 5%;
+  width: 5px;
 }
 .formBx form {
   display: flex;
