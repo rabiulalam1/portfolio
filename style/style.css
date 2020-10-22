@@ -205,13 +205,14 @@ section {
 }
 img {
   max-width: 100px;
+  max-height: 120px;
 }
 .formBx {
   min-width: 60%;
 }
-/* .myImg {
+.myImg {
   transform: scale(2.2);
-} */
+}
 
 .socialMedia ul {
   display: flex;
